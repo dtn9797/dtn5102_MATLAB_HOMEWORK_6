@@ -24,9 +24,9 @@ elseif vObj>0
         fprintf('Subsonic, Mach number is %.2f.\n',mach);
     elseif mach == 1
         fprintf('Transonic, Mach number is %.2f.\n',mach);
-    elseif mach>1 && mach <=5
+    elseif mach>1 && mach <5
         fprintf('Supersonic, Mach number is %.2f.\n',mach);
-    elseif mach >5
+    elseif mach >=5
         fprintf('Hypersonic, Mach number is %.2f.\n',mach);
     end 
 end
